@@ -7,5 +7,7 @@ public class Sample {
 
     public static void main(String[] args) {
         myMethod();
+        myMethod();// calling the method multiple times
+        myMethod();
     }
 }
