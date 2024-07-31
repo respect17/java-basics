@@ -1,21 +1,19 @@
-class Main {
+class Demo {
+    int a, b;
 
-    // create a method
-    public int divideNumbers(int x, int y) {
-        int division = x / y;
-        // return value
-        return division;
+    // Constructor
+    Demo(int a, int b) {
+        this.a = a;
+        this.b = b;
     }
 
-    public static void main(String[] args) {
+    // Method to add two numbers
+    int addition() {
+        return a + b;
+    }
 
-        int firstNumber = 4;
-        int secondNumber = 2;
-
-        // create an object of Main
-        Main obj = new Main();
-        // calling method
-        int result = obj.divideNumbers(firstNumber, secondNumber);
-        System.out.println("Dividing " + firstNumber + " by " + secondNumber + " is: " + result);
+    // Method to subtract two numbers
+    int subtraction() {
+        return a - b;
     }
 }
